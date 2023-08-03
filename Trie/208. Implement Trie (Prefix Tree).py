@@ -14,7 +14,6 @@ class Trie:
             curr=curr.children[c]
         curr.endof=True
 
-        
     def search(self, word: str) -> bool:
         curr=self.tempword
         for c in word:
@@ -23,8 +22,6 @@ class Trie:
             curr=curr.children[c]
         return curr.endof     
         
-        
-
     def startsWith(self, prefix: str) -> bool:
         curr=self.tempword
         for c in prefix:
