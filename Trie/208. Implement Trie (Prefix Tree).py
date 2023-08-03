@@ -1,3 +1,4 @@
+# the code is for class structure
 class TreeNode:
     def __init__(self):
         self.children={}
